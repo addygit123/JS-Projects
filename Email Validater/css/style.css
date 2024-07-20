@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.logo img{
+    width: 30px;
+}
+
+
+
+nav{
+    display: flex;
+    background-color: black;
+    color:white ;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 26;
+    padding: 5px;
+
+}
+
+*{  padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 0 13px;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+ul>li>a:hover{
+    color: rgb(237, 221, 221);
+}
+main{
+    min-height: 87vh;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 80vw;
+    margin:auto;
+    padding: 20px;
+}
+input.btn {
+    padding: 6px 12px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    
+}
+input.btn:hover{
+    cursor: hand;
+    color:rgb(239, 222, 222);
+}
+.logo{
+    display: flex;
+}
+.logo span{
+    padding: 10px ;
+
+}
+input[type="text"]{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 20px;
+}
+.container span{
+    display: flex;
+    padding: 0px 0px;
+    align-items: center;
+    align-content: center;
+    font-style: bold;
+    font-weight:bolder;
+    font-size: 25px;
+}
+#resultCont{
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width:400px) { 
+    
+    body {
+        background-color: aqua;
+        
+        
+      }
+    main {
+        flex-direction: column;
+        padding: 24px;
+      }
+    nav {
+        font-size: 16px;    
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .container{
+        font-size: 12px;
+    }
+    .logo{
+        padding: 6px 0;
+        display: flex;
+        
+    }
+    .logo span{
+        font-size:20px;
+        padding-left: 10px;
+    }
+    .logo img{
+        width: 30px;
+        
+    }
+}
